@@ -22,7 +22,7 @@ export const orderbook : OrderBook = {
     asks: [],
 } 
 
-export const orderQuantity: {bids:{[price: number]: number}; asks: {[price: number]: number}} = {
+export const bookWithQuantity: {bids:{[price: number]: number}; asks: {[price: number]: number}} = {
     bids: {},
     asks: {}
 }
